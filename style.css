@@ -11,6 +11,7 @@ body{
 
 section{
     background: salmon;
+    margin: 15px;
 }
 
 .contenedor{
@@ -64,6 +65,7 @@ section{
 
 .info ul{
     margin-top: 10px;
+    list-style: none;
 }
 
 .contenedor-conocimientos{
