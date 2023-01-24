@@ -136,7 +136,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(182, 244, 244);
+    background-color: rgb(255, 255, 255);
 }
 
 header h1{
@@ -159,7 +159,7 @@ header a{
 }
 
 header a:hover{
-    color: blue;
+    color: rgb(165, 155, 255);
 }
 
 .contenedor-contacto h1{
@@ -168,12 +168,18 @@ header a:hover{
     text-align: center;
 }
 
+footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-bottom: 25px;
+}
+
 @media (min-width: 720px){
 
     header{
         flex-direction: row;
         justify-content: space-between;
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
     }
 
     header h1{
@@ -248,7 +254,7 @@ header a:hover{
     }
 
     footer{
-        background-color: rgb(204, 134, 134);
+        background-color: rgb(255, 255, 255);
         display: flex;
         width: 100%;
     }
