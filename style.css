@@ -113,6 +113,7 @@ section h1{
 .contenedor-contacto{
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -138,6 +139,7 @@ header{
     flex-direction: column;
     align-items: center;
     background-color: aqua;
+    height: 80px;
 }
 
 header h1{
@@ -182,7 +184,7 @@ footer .footer-contenedor{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 100px;
+    height: 80px;
 }
 
 @media (min-width: 720px){
@@ -225,5 +227,11 @@ footer .footer-contenedor{
         text-align: left;
         padding: 15px;
         margin: 15px;
+    }
+
+    .contenedor p{
+        text-align: center;
+        justify-content: center;
+        width: 100%;
     }
 }
