@@ -100,5 +100,20 @@ section{
 
 .contenedor-conocimientos p{
     margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
+.contenedor-contacto{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contenedor-contacto h1{
+    margin-top: 20px;
+}
+
+.contenedor-contacto p{
+    margin-top: 20px;
+}
