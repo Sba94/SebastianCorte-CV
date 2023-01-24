@@ -162,26 +162,10 @@ header a:hover{
     color: blue;
 }
 
-footer{
-    background-color: rgb(0, 0, 0);
-}
-
 .contenedor-contacto h1{
     margin-top: 50px;
     font-weight: 100;
     text-align: center;
-}
-
-footer p{
-    color: rgb(239, 27, 27);
-    padding: 15px;
-}
-
-footer .footer-contenedor{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 80px;
 }
 
 @media (min-width: 720px){
@@ -263,16 +247,28 @@ footer .footer-contenedor{
         padding: 0px 50px;
     }
 
+    footer{
+        background-color: rgb(204, 134, 134);
+        display: flex;
+        width: 100%;
+    }
+
     .contenedor-contacto{
+        width: 80%;
         line-height: 3vh;
+        text-align: left;
+        margin: 15px 150px;
+        padding: 0px 50px;
+    }
+
+    .contenedor-contacto ul{
+        display: flex;
+        justify-content: space-between;
+
     }
 
     .contenedor-contacto h1{
         padding-bottom: 15px;
-    }
-
-    section h1{
-        font-size: 5vh;
-        width: 100%;
+        margin-top: 0px;
     }
 }
