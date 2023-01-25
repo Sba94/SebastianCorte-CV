@@ -175,6 +175,11 @@ footer{
     padding-bottom: 25px;
 }
 
+header .lampara{
+    border-style: none;
+    background: none;
+}
+
 @media (min-width: 720px){
 
     header{
