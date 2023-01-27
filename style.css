@@ -175,9 +175,14 @@ footer{
     padding-bottom: 25px;
 }
 
-header .lampara{
+#lampara{
     border-style: none;
     background: none;
+}
+
+.modo_oscuro{
+    background-color: rgb(33,33,33); 
+    color: white;
 }
 
 @media (min-width: 720px){
