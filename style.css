@@ -184,6 +184,12 @@ footer{
     display: block;
 }
 
+#masInfo_btn{
+    border-style: none;
+    background: none;
+    cursor: pointer;
+}
+
 @media (min-width: 720px){
 
     header{
