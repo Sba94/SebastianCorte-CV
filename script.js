@@ -1,6 +1,8 @@
-const lampara = document.querySelector('#lampara');
-const body = document.querySelector('body');
+let masInfo_btn = document.getElementById('masInfo_btn');
+let masInfo = document.getElementById('masInfo');
 
-lampara.addEventListener('click', e =>{
-    body.classList.toggle('modo_oscuro');
-    });
+masInfo_btn.addEventListener('click', mostrarInfo);
+
+function mostrarInfo(){
+    masInfo.classList.toggle('mostrar_texto');
+}
