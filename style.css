@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*poner font family */
 }
 
 body{
@@ -184,6 +183,10 @@ footer{
     display: block;
 }
 
+button{
+    width: 100%;
+}
+
 #masInfo_btn{
     border-style: none;
     background: none;
@@ -290,5 +293,11 @@ footer{
     .contenedor-contacto h1{
         padding-bottom: 15px;
         margin-top: 0px;
+    }
+
+    button{
+        padding: 0;
+        margin: 0;
+        width: 50px;
     }
 }
