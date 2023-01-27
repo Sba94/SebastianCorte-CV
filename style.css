@@ -6,7 +6,12 @@
 }
 
 body{
-    background-color: rgb(170, 200, 207);
+    background-color:rgb(149, 149, 255);
+}
+
+.modo_oscuro{
+    background-color: rgb(51, 51, 51); 
+    color: white;
 }
 
 section{
@@ -114,6 +119,7 @@ section h1{
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
+    color: black;
 }
 
 .contenedor-contacto h1{
@@ -137,7 +143,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(165, 178, 255);
 }
 
 header h1{
@@ -160,7 +166,7 @@ header a{
 }
 
 header a:hover{
-    color: rgb(165, 155, 255);
+    color: rgb(255, 255, 255);
 }
 
 .contenedor-contacto h1{
@@ -170,7 +176,7 @@ header a:hover{
 }
 
 footer{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(149, 149, 255);
     width: 100%;
     padding-bottom: 25px;
 }
@@ -180,17 +186,11 @@ footer{
     background: none;
 }
 
-.modo_oscuro{
-    background-color: rgb(33,33,33); 
-    color: white;
-}
-
 @media (min-width: 720px){
 
     header{
         flex-direction: row;
         justify-content: space-between;
-        background-color: rgb(255, 255, 255);
     }
 
     header h1{
@@ -265,7 +265,6 @@ footer{
     }
 
     footer{
-        background-color: rgb(255, 255, 255);
         display: flex;
         width: 100%;
     }
